@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jongchanlim/CLionProjects/csp10-2/account.h
+iostream
+-
+
+/Users/jongchanlim/CLionProjects/csp10-2/main.cpp
+iostream
+-
+cstring
+-
+account.h
+/Users/jongchanlim/CLionProjects/csp10-2/account.h
+
