@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jongchanlim/CLionProjects/csp11-2/Loop.h
+iostream
+-
+string
+-
+
+/Users/jongchanlim/CLionProjects/csp11-2/main.cpp
+iostream
+-
+Loop.h
+/Users/jongchanlim/CLionProjects/csp11-2/Loop.h
+
